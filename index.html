@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Google Style Footer</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Google Home Page Footer">
+  <meta name="author" content="rioweber.com">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  * {
+    margin: 0;
+  }
+  html, body {
+    font-family: sans-serif;
+    height: 100%;
+  }
+  footer {
+    color: #FFF;
+  }
+  #viewport {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -50px; 
+  }
+  #viewport:after {
+    content: "";
+    display: block;
+  }
+  .site-footer, #viewport:after {
+    /* .push must be the same height as footer */
+    height: 50px; 
+  }
+  .site-footer {
+    background: linear-gradient(14deg, #2cb5e8 0%, #0fb8ad 51%, #1fc8db 75%);
+  }
+  </style>
+</head>
+<body>
+  <div id="viewport">
+    <h1>Google Home Page Footer</h1>
+    <h2>Fixed Footer Height</h2>
+  </div>
+
+  <footer class="site-footer">
+  Content
+  </footer>
+</body>
+</html>
