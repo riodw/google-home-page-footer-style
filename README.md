@@ -1,0 +1,1 @@
+# google-home-page-footer-style
